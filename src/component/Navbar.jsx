@@ -1,7 +1,7 @@
  import React from 'react'
  import logo from "../assets/logo.png";
 import { links } from '../constant';
-import Button from './Button';
+
  
  const Navbar = () => {
    return (
@@ -17,7 +17,7 @@ import Button from './Button';
                 </li>
             ))}
         </ul>
-        <Button text="Get the App" bg={"bg-gradient"} />
+        <button><a href="#" className='bg-gradient rounded-full px-8 py-3 text-white font-sans font-[700] cursor-pointer'>Get the App</a></button>
      </nav>
    )
  }

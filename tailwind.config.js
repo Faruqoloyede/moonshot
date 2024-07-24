@@ -10,7 +10,8 @@ module.exports = {
         grey: "#1A1C29",
         border: "#393939",
         black: "#0B0B0B",
-        icon: "#F9F5F2"
+        icon: "#F9F5F2",
+        lightblue: "#36B6FE45"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
