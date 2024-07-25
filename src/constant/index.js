@@ -5,8 +5,8 @@ export const links = [
         title: "Prices"
     },
     {
-        id:"Memes",
-        title: "Memes"
+        id:"Wallet",
+        title: "Wallet"
     },
     {
         id:"Memes",
