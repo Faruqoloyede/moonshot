@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Navbar } from './component'
+import { Hero, Navbar, Trading } from './component'
 
 const App = () => {
   return (
@@ -14,6 +14,11 @@ const App = () => {
           <Hero />
         </div>
       </div>
+      <div className='sm:px-16 px-6 flex justify-center items-start'>
+          <div className='xl:max-w-[1280px] w-full'>
+            <Trading />
+          </div>
+        </div>
    </div>
   )
 }
