@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hero, Navbar, Trading } from './component'
+import Feature from './component/Feature'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <div className='sm:px-16 px-6 flex justify-center items-start'>
           <div className='xl:max-w-[1280px] w-full'>
             <Trading />
+            <Feature />
           </div>
         </div>
    </div>
