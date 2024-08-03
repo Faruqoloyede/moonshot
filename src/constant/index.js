@@ -6,6 +6,10 @@ import chart from "../assets/chart.png";
 import control from "../assets/control.png";
 import deposite from "../assets/deposit.png";
 import mobile from "../assets/mobile.png";
+import support from "../assets/support.png";
+import country from "../assets/country.png";
+import user from "../assets/user.png";
+import volume from "../assets/volume.png";
 
 export const links = [
     {
@@ -79,5 +83,28 @@ export const stat = [
         icon: mobile,
         title: "Mobile apps",
         text: "See trending memes that people are buying most. Get live updates about hot moonshots and track your holdings."
+    },
+]
+
+export const feedback = [
+    {
+        icon: support,
+        text: "200k",
+        title: "Supported"
+    },
+    {
+        icon: country,
+        text: "130,000+",
+        title: "Country"
+    },
+    {
+        icon: user,
+        text: "1m+",
+        title: "Verified users"
+    },
+    {
+        icon: volume,
+        text: "10k+ ",
+        title: "Volume traded"
     },
 ]

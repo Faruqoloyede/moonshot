@@ -1,6 +1,8 @@
 import React from 'react'
 import { Hero, Navbar, Trading } from './component'
 import Feature from './component/Feature'
+import Feedback from './component/Feedback'
+import Newsletter from './component/Newsletter'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
           <div className='xl:max-w-[1280px] w-full'>
             <Trading />
             <Feature />
+            <Feedback />
+            <Newsletter />
           </div>
         </div>
    </div>
