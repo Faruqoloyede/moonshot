@@ -4,7 +4,7 @@ import { stat } from '../constant'
 const Feature = () => {
   return (
     <section className='sm:py-16 py-6'>
-        <h2 className='text-white sm:text[48px] text-[40px] font-sans font-medium text-center mb-3'>Create your crypto <br className='sm:block hidden' />currency portfolio today</h2>
+        <h2 className='text-white sm:text[48px] text-[30px] font-sans font-medium text-center mb-3'>Create your crypto <br className='sm:block hidden' />currency portfolio today</h2>
         <p className='text-white text-[18px] text-center font-sans font-normal'>Moonshot has a variety of features that makes it the<br className='sm:block hidden' /> best place to start trading.</p>
         <div className='flex sm:flex-row flex-col items-center justify-between gap-10 mt-5'>
            {stat.map((item)=>(

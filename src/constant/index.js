@@ -111,6 +111,48 @@ export const feedback = [
 
 export const footer_link = [
     {
-        
+        title: "Useful links",
+        links: [
+            {
+                text: "About us",
+            }, 
+            {
+                text: "Events"
+            },
+            {
+                text: "Blogs"
+            },
+            {
+                text: "FAQs"
+            },
+        ]
+    },
+    {
+        title: "Main Menu",
+        links: [
+            {
+                text: "Home",
+            }, 
+            {
+                text: "Coins"
+            },
+            {
+                text: "Review"
+            },
+            {
+                text: "About"
+            },
+        ]
+    }, 
+    {
+        title: "Contact Us",
+        links: [
+            {
+                text: "memecoin@gmail.com",
+            }, 
+            {
+                text: "+6348473"
+            },
+        ]
     }
 ]

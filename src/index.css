@@ -16,3 +16,11 @@
     color: #14122a;
     transition: .3s ease-in-out;
 }
+
+.earnings {
+    background: url('./assets/mask.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5.5rem;
+}

@@ -7,7 +7,7 @@ const Trading = () => {
   return (
     <section className='sm:py-16 py-6' >
       <div className='flex flex-col items-center'>
-        <h1 className='text-white sm:text-[48px] text-[40px] font-poppins mb-4 sm:text-center text-start leading-normal'>Earn 50% of trading fees from<br className='sm:block hidden' /> each friend you refer.</h1>
+        <h1 className='text-white sm:text-[48px] text-[30px] font-poppins mb-4 text-center leading-normal'>Earn 50% of trading fees from<br className='sm:block hidden' /> each friend you refer.</h1>
         <p className='text-white text-[18px] text-center'>Discover how moonshot works — and get a bit of each<br /> meme coin to try out for yourself.</p>
         <div className='flex sm:flex-row flex-col items-center justify-center gap-10 mt-10'>
           {trading.map((item, index)=>(

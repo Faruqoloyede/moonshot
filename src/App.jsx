@@ -1,8 +1,6 @@
 import React from 'react'
-import { Hero, Navbar, Trading } from './component'
-import Feature from './component/Feature'
-import Feedback from './component/Feedback'
-import Newsletter from './component/Newsletter'
+import { Hero, Navbar, Trading, Feature, Feedback, Newsletter, Earnings } from './component'
+import Footer from './component/Footer'
 
 const App = () => {
   return (
@@ -23,6 +21,8 @@ const App = () => {
             <Feature />
             <Feedback />
             <Newsletter />
+            <Earnings />
+            <Footer />
           </div>
         </div>
    </div>
