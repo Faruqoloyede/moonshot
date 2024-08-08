@@ -9,3 +9,10 @@
 .sidenav {
     transition: .3s ease-in-out;
 }
+
+.btn:hover {
+    background-color: #FF6EFE;
+    border: none;
+    color: #14122a;
+    transition: .3s ease-in-out;
+}

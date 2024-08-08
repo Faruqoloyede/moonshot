@@ -108,3 +108,9 @@ export const feedback = [
         title: "Volume traded"
     },
 ]
+
+export const footer_link = [
+    {
+        
+    }
+]
